@@ -32,21 +32,21 @@ export default class Blog extends Component {
             <Container>
                 <Row>
                     <Col md={3}>
-                    
+
                         <h4 className='text-center mt-5' >All Hashira</h4>
                         <div className='category-card-wrapper'>
-                        <Card className='Blog-Select'>
-                            <ListGroup variant='flush'>
-                                <ListGroup.Item action onClick={() => this.handleCategorySelect('All')}>All</ListGroup.Item>
-                                <ListGroup.Item action onClick={() => this.handleCategorySelect('Gyomei Himejima')}>Gyomei Himejima</ListGroup.Item>
-                                <ListGroup.Item action onClick={() => this.handleCategorySelect('Sanemi Shinazugawa')}>Sanemi Shinazugawa</ListGroup.Item>
-                                <ListGroup.Item action onClick={() => this.handleCategorySelect('Giyu Tomioka')}>Giyu Tomioka</ListGroup.Item>
-                                <ListGroup.Item action onClick={() => this.handleCategorySelect('Mitsuri Kanroji')}>Mitsuri Kanroji</ListGroup.Item>
-                                <ListGroup.Item action onClick={() => this.handleCategorySelect('Kyojuro Rengoku ')}>Kyojuro Rengoku </ListGroup.Item>
-                                <ListGroup.Item action onClick={() => this.handleCategorySelect('Tengen Uzui')}>Tengen Uzui</ListGroup.Item>
-                                <ListGroup.Item action onClick={() => this.handleCategorySelect('Shinobu Kocho ')}>Shinobu Kocho</ListGroup.Item>
-                            </ListGroup>
-                        </Card>
+                            <Card className='Blog-Select'>
+                                <ListGroup variant='flush'>
+                                    <ListGroup.Item action onClick={() => this.handleCategorySelect('All')}>All</ListGroup.Item>
+                                    <ListGroup.Item action onClick={() => this.handleCategorySelect('Gyomei Himejima')}>Gyomei Himejima</ListGroup.Item>
+                                    <ListGroup.Item action onClick={() => this.handleCategorySelect('Sanemi Shinazugawa')}>Sanemi Shinazugawa</ListGroup.Item>
+                                    <ListGroup.Item action onClick={() => this.handleCategorySelect('Giyu Tomioka')}>Giyu Tomioka</ListGroup.Item>
+                                    <ListGroup.Item action onClick={() => this.handleCategorySelect('Mitsuri Kanroji')}>Mitsuri Kanroji</ListGroup.Item>
+                                    <ListGroup.Item action onClick={() => this.handleCategorySelect('Kyojuro Rengoku ')}>Kyojuro Rengoku </ListGroup.Item>
+                                    <ListGroup.Item action onClick={() => this.handleCategorySelect('Tengen Uzui')}>Tengen Uzui</ListGroup.Item>
+                                    <ListGroup.Item action onClick={() => this.handleCategorySelect('Shinobu Kocho ')}>Shinobu Kocho</ListGroup.Item>
+                                </ListGroup>
+                            </Card>
                         </div>
                     </Col>
                     <Col md={9}>
