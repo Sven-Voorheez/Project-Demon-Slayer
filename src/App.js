@@ -2,7 +2,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -15,10 +15,10 @@ function App() {
       <Header />
       <div style={{ marginTop: '55px' }}>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/blog" element={<Blog />} />
-          <Route exact path="/contacts" element={<Contacts />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </div>
     </Router>
