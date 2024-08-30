@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Project-Demon-Slayer/static/css/main.956984b5.css",
-    "main.js": "/Project-Demon-Slayer/static/js/main.93b5a53e.js",
+    "main.js": "/Project-Demon-Slayer/static/js/main.7e82b60b.js",
     "static/js/453.b6f4b05e.chunk.js": "/Project-Demon-Slayer/static/js/453.b6f4b05e.chunk.js",
     "static/media/douma.jpg": "/Project-Demon-Slayer/static/media/douma.b8a6d09bcd971a2290be.jpg",
     "static/media/mudzanchik.png": "/Project-Demon-Slayer/static/media/mudzanchik.eedaca726b333bdf7f60.png",
@@ -14,11 +14,11 @@
     "static/media/devushka_s_bivoy.avif": "/Project-Demon-Slayer/static/media/devushka_s_bivoy.a624816973acd88e1a5d.avif",
     "index.html": "/Project-Demon-Slayer/index.html",
     "main.956984b5.css.map": "/Project-Demon-Slayer/static/css/main.956984b5.css.map",
-    "main.93b5a53e.js.map": "/Project-Demon-Slayer/static/js/main.93b5a53e.js.map",
+    "main.7e82b60b.js.map": "/Project-Demon-Slayer/static/js/main.7e82b60b.js.map",
     "453.b6f4b05e.chunk.js.map": "/Project-Demon-Slayer/static/js/453.b6f4b05e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.956984b5.css",
-    "static/js/main.93b5a53e.js"
+    "static/js/main.7e82b60b.js"
   ]
 }
