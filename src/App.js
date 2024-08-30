@@ -1,4 +1,3 @@
-
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
@@ -11,7 +10,7 @@ import Contacts from './Pages/Contacts';
 
 function App() {
   return (
-    <Router>
+    <>
       <Header />
       <div style={{ marginTop: '55px' }}>
         <Routes>
@@ -23,8 +22,9 @@ function App() {
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </div>
-    </Router>
+    </>
   );
 }
+
 
 export default App;
