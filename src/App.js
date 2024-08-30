@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -24,6 +24,5 @@ function App() {
     </>
   );
 }
-
 
 export default App;
