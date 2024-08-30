@@ -1,7 +1,9 @@
+
 import React, { Component } from 'react';
 import CarouselBox from '../Components/CarouselBox';
 import { Container, Card, CardGroup, Button, Row, Col } from "react-bootstrap";
 import './Home.css';
+
 export default class Home extends Component {
   render() {
     return (
@@ -9,18 +11,18 @@ export default class Home extends Component {
         <div className='Main-Images'>
           <CarouselBox />
         </div>
-        <Container >
+        <Container>
           <h1 className='text-center m-4' style={{ color: 'red' }}>Our team</h1>
           <CardGroup className='Home-Card_Group m-4'>
-            <Row className='m-9'>
+            <Row>
               <Col sm={6} className='d-flex'>
-                <Card bg="light" text="dark" className='m-4' style={{ borderRadius: '12px', backgroundColor: '#E1E1E1', }}>
+                <Card bg="light" text="dark" className='m-4' style={{ borderRadius: '12px', backgroundColor: '#E1E1E1' }}>
                   <Card.Img
                     variant='top'
-                    style={{ borderRadius: '10px', objectFit: 'cover', }}
+                    style={{ borderRadius: '10px', objectFit: 'cover' }}
                     src='https://avatars.mds.yandex.net/i?id=10ce0deead59461be2affbb0d723a8d5_l-10355097-images-thumbs&n=13'
                   />
-                  <Card.Body d-flex flex-column justify-content-between >
+                  <Card.Body>
                     <Card.Title className='text-center' style={{ color: '#9E9E9E' }}>Douma</Card.Title>
                     <Card.Text className='text-center'>Демон с ледяными способностями, создающий смертоносные ледяные атаки и имеющий бездушный характер.</Card.Text>
                   </Card.Body>
@@ -53,7 +55,6 @@ export default class Home extends Component {
                     <Card.Text className='text-center'>Обладает способностями к манипуляции и созданию разрушительных атак. Его умение управлять окружением делает его опасным противником.</Card.Text>
                   </Card.Body>
                   <Button variant='secondary' className='w-100' style={{ backgroundColor: '#757575', borderColor: '#757575' }}>About Team</Button>
-
                 </Card>
               </Col>
               <Col sm={6} className='d-flex'>
@@ -61,11 +62,13 @@ export default class Home extends Component {
                   <Card.Img
                     variant='top'
                     style={{ borderRadius: '10px', objectFit: 'cover' }}
-                    src='https://avatars.mds.yandex.net/i?id=5853dba9caea66cea054fc207adf25d9_l-12441729-images-thumbs&n=13'
+
+
+src='https://avatars.mds.yandex.net/i?id=5853dba9caea66cea054fc207adf25d9_l-12441729-images-thumbs&n=13'
                   />
                   <Card.Body>
                     <Card.Title className='text-center' style={{ color: '#9E9E9E' }}>Akaza</Card.Title>
-                    <Card.Text className='text-center'> Демон, обладающий высокой физической силой и мастерством в боевых искусствах. Он ищет сильных противников и наслаждается поединками.</Card.Text>
+                    <Card.Text className='text-center'>Демон, обладающий высокой физической силой и мастерством в боевых искусствах. Он ищет сильных противников и наслаждается поединками.</Card.Text>
                   </Card.Body>
                   <Button variant='secondary' className='w-100' style={{ backgroundColor: '#757575', borderColor: '#757575' }}>About Team</Button>
                 </Card>
@@ -107,9 +110,12 @@ export default class Home extends Component {
                   />
                   <Card.Body>
                     <Card.Title className='text-center' style={{ color: '#9E9E9E' }}>Nakima</Card.Title>
-                    <Card.Text className='text-center'>демон, ставшая новой Четвёртой Верхней Луной после смерти Хантэнгу. Она управляет бесконечным замком Муцана, манипулируя его пространствами с помощью игры на биве. Её способности делают её ключевой фигурой в защите Муцана от охотников на демонов.</Card.Text>
+                    <Card.Text className='text-center'>Демон, ставшая новой Четвёртой Верхней Луной после смерти Хантэнгу. Она управляет бесконечным замком Муцана, манипулируя его пространствами с помощью игры на биве. Её способности делают её ключевой фигурой в защите Муцана от охотников на демонов.</Card.Text>
                   </Card.Body>
-                  <Button variant='secondary' className='w-100' style={{ backgroundColor: '#757575', borderColor: '#757575' }}>About Team</Button>
+                  <Button variant='secondary'></Button>
+
+
+<Button variant='secondary' className='w-100' style={{ backgroundColor: '#757575', borderColor: '#757575' }}>About Team</Button>
                 </Card>
               </Col>
               <Col sm={6} className='d-flex'>
@@ -121,18 +127,15 @@ export default class Home extends Component {
                   />
                   <Card.Body>
                     <Card.Title className='text-center' style={{ color: '#9E9E9E' }}>Hantengo</Card.Title>
-                    <Card.Text className='text-center'> Четвёртая Верхняя Луна, способный разделяться на клонов, воплощающих разные эмоции. В своей основной форме он выглядит как слабый, перепуганный старик. Его способности делают его крайне трудным противником, постоянно избегая прямых атак.</Card.Text>
+                    <Card.Text className='text-center'>Четвёртая Верхняя Луна, способный разделяться на клонов, воплощающих разные эмоции. В своей основной форме он выглядит как слабый, перепуганный старик. Его способности делают его крайне трудным противником, постоянно избегая прямых атак.</Card.Text>
                   </Card.Body>
                   <Button variant='secondary' className='w-100' style={{ backgroundColor: '#757575', borderColor: '#757575' }}>About Team</Button>
                 </Card>
               </Col>
             </Row>
           </CardGroup>
-          );
-
         </Container>
       </>
-
     );
   }
 }
