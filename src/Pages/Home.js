@@ -64,7 +64,7 @@ export default class Home extends Component {
                     style={{ borderRadius: '10px', objectFit: 'cover' }}
 
 
-src='https://avatars.mds.yandex.net/i?id=5853dba9caea66cea054fc207adf25d9_l-12441729-images-thumbs&n=13'
+                    src='https://avatars.mds.yandex.net/i?id=5853dba9caea66cea054fc207adf25d9_l-12441729-images-thumbs&n=13'
                   />
                   <Card.Body>
                     <Card.Title className='text-center' style={{ color: '#9E9E9E' }}>Akaza</Card.Title>
@@ -115,7 +115,7 @@ src='https://avatars.mds.yandex.net/i?id=5853dba9caea66cea054fc207adf25d9_l-1244
                   <Button variant='secondary'></Button>
 
 
-<Button variant='secondary' className='w-100' style={{ backgroundColor: '#757575', borderColor: '#757575' }}>About Team</Button>
+                  <Button variant='secondary' className='w-100' style={{ backgroundColor: '#757575', borderColor: '#757575' }}>About Team</Button>
                 </Card>
               </Col>
               <Col sm={6} className='d-flex'>
